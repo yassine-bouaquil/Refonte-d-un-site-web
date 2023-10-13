@@ -1,0 +1,255 @@
+@font-face {
+    font-family: Qatar;
+    src: url(Qatar2022Arabic-Heavy.ttf);
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:Qatar;
+    background-image: url("Background.png");
+    color: #FFF;
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: normal;
+    line-height: 1.15;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.maroc{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:Qatar;
+    background-image: url("Background 2.png");
+    color: #FFF;
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: normal;
+    line-height: 1.15;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+
+    
+    padding: 10px 25%; 
+
+}
+
+
+.logo img {
+    max-height: 100px;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+li {
+    display:inline; 
+    margin-right: 15px;
+
+}
+
+
+a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    font-size: x-large;
+}
+
+.social-media-icon{
+    font-size: 60px;
+
+}
+
+.container{
+    align-items: flex-start;
+    font-size: 60px;
+    
+}
+.parag{
+    color: #333330;
+    display: flex;
+    line-height: 0.9;
+     
+}
+.site{
+    color: yellow;
+    display: flex;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+
+}
+.zitoune{
+
+    width: 900px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imgm3sba{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    
+}
+.Home{
+    color: rgb(255, 255, 0);
+}
+.section1{
+    padding: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.parent {  
+    justify-content: space-between;
+}
+
+.section {
+ 
+    
+    background-image: url(Design3.png);
+
+}
+footer {
+    color: #000000;
+    text-align: center;
+ 
+   margin-top: 6%;
+}
+
+.copyright {
+    font-size: 20px;
+}
+
+.grand-titre {
+    font-size: 36px;
+    font-weight: bold; 
+    text-align: center; 
+    margin: 20px 0; 
+    color: #333; 
+}
+.titre1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgba(54, 50, 50, 1);
+   text-shadow: 0px 4px 4px rgba(255, 252, 252, 0.5);
+   font-size: 45px;
+}
+.tailleparag1{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    font-size: 36px;
+    margin: 40px 0; 
+}
+.amazon1{
+    display: flex;
+    justify-content: space-around;
+}
+.titre2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(54, 50, 50, 1);
+    text-shadow: 0px 4px 4px rgba(255, 252, 252, 0.5);
+    font-size: 45px;
+    width: 60%;
+    margin: auto;
+    border-bottom: 8px solid #783757;
+ }
+ .titre3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFDE00;
+    font-size: 35px;
+    margin: 40px 0; 
+    text-shadow:
+    -2px -2px 0 #000, /* Top-left shadow */
+    2px -2px 0 #000, /* Top-right shadow */
+    -2px 2px 0 #000, /* Bottom-left shadow */
+    2px 2px 0 #000; /* Bottom-right shadow */
+
+    
+
+ }
+ .tailleparag1{
+    font-size: 25px;
+    text-shadow: 6px #000000;
+    border: #000000;
+    text-shadow:
+    -2px -2px 0 #000, /* Top-left shadow */
+    2px -2px 0 #000, /* Top-right shadow */
+    -2px 2px 0 #000, /* Bottom-left shadow */
+    2px 2px 0 #000; /* Bottom-right shadow */
+    
+ }
+ .maroc2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    align-items: center;
+ }
+ .paragimg{
+    background-image: url('background\ flou.png');
+ }
+ .text-overflow{
+    font-size: 25px;
+    text-shadow: 6px #000000;
+    border: #000000;
+    text-shadow:
+    -2px -2px 0 #000, /* Top-left shadow */
+    2px -2px 0 #000, /* Top-right shadow */
+    -2px 2px 0 #000, /* Bottom-left shadow */
+    2px 2px 0 #000;
+
+ }
+.imagecontainerr{
+    position: relative;
+    display: inline-block;
+}
+.text-overflow{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #ffffff;
+}
+.titre4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(54, 50, 50, 1);
+    text-shadow: 0px 4px 4px rgba(255, 252, 252, 0.5);
+    font-size: 45px;
+    width: 40%;
+    margin: auto;
+    border-bottom:  solid #ffffff;
+
+}
